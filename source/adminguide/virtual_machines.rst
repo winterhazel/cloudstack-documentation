@@ -697,7 +697,7 @@ transferred:
    destination host can access, so only the CPU and memory state is
    transferred. Nothing is copied on the storage side.
 
--  **The Instance and some of its volumes (live storage migration).** A volume
+-  **The Instance and some of its volumes (live migration with storage).** A volume
    resides on storage that the destination host can not access (for example
    local storage, or cluster-wide storage belonging to another cluster) so
    that volume is moved as part of the migration.
